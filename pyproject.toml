@@ -1,0 +1,58 @@
+[project]
+name = "fluid-quantum-logic"
+version = "1.0.0"
+description = "Zero-shot quantum logic via ancilla superposition. 100% accuracy without training. Patent Pending."
+authors = [
+    {name = "Larsen James Close", email = "larsenclose@pm.me"}
+]
+readme = "README.md"
+license = {text = "Proprietary - Research Use Only (See LICENSE)"}
+requires-python = ">=3.10,<3.13"
+keywords = ["quantum-computing", "quantum-machine-learning", "zero-shot-learning", "quantum-logic", "cognitive-architecture"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+dependencies = [
+    "pennylane>=0.35.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "torch>=2.0.0",
+    "qiskit>=2.2.3",
+    "qiskit-aer>=0.17.2",
+    "autoray<0.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "jupyter>=1.0.0",
+    "ipykernel>=6.25.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/LarsenClose/fluid-quantum-logic"
+Repository = "https://github.com/LarsenClose/fluid-quantum-logic"
+Documentation = "https://github.com/LarsenClose/fluid-quantum-logic/blob/main/README.md"
+"Bug Tracker" = "https://github.com/LarsenClose/fluid-quantum-logic/issues"
+Paper = "https://github.com/LarsenClose/fluid-quantum-logic/blob/main/paper/fluid_quantum_logic.pdf"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fluid_quantum_logic"]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0.0",
+]
