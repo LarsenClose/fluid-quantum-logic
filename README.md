@@ -182,7 +182,7 @@ fluid-quantum-logic/
   author={Close, Larsen},
   year={2025},
   publisher={Zenodo},
-  doi={10.5281/zenodo.17676941},
+  doi={10.5281/zenodo.17677140},
   note={Patent Pending, USPTO Serial No. 63/921,961},
   url={https://github.com/LarsenClose/fluid-quantum-logic}
 }
