@@ -639,13 +639,17 @@ https://github.com/LarsenClose/fluid-quantum-logic
 
 ### Key Files
 
-| File | Description |
-|------|-------------|
-| `demonstrations/01_zero_shot_logic.py` | Universal logic unit (100% accuracy) |
-| `demonstrations/02_qiskit_validation.py` | Platform independence validation |
-| `demonstrations/03_audio_rhythm.py` | Domain transfer to audio |
-| `demonstrations/04_noise_robustness.py` | Noise resilience testing |
-| `demonstrations/05_bistability.py` | Bistability validation (62-76% range) |
+**01\_zero\_shot\_logic.py** --- Universal logic unit (100% accuracy)
+
+**02\_qiskit\_validation.py** --- Platform independence validation
+
+**03\_audio\_rhythm.py** --- Domain transfer to audio
+
+**04\_noise\_robustness.py** --- Noise resilience testing
+
+**05\_bistability.py** --- Bistability validation (62-76% range)
+
+All demonstration files are located in the `demonstrations/` directory.
 
 ### Software Requirements
 
